@@ -1,0 +1,56 @@
+#table div {
+	height: 150px;
+	margin: 20px;
+}
+
+
+#table div img {
+	width: 50px;
+	height: auto;
+	display: inline-block;
+	margin: 5px;
+}
+
+#hulk {
+	border: 1px solid green;
+}
+
+#hulk::before {
+	content: "Hulk";
+	display: block;
+	font-size: 30px;
+	color: green;
+}
+
+#iron-man {
+	border: 1px solid red;
+}
+
+#iron-man::before {
+	content: "Iron Man";
+	display: block;
+	font-size: 30px;
+	color: red;
+}
+
+#thor {
+	border: 1px solid silver;
+}
+
+#thor::before {
+	content: "Thor";
+	display: block;
+	font-size: 30px;
+	color: silver;
+}
+
+#player {
+	border: 1px solid blue;
+}
+
+#player::before {
+	content: "You";
+	display: block;
+	font-size: 30px;
+	color: blue;
+}
